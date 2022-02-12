@@ -114,10 +114,10 @@ body {
 }
 
 .imagem-apresentacao {
-    height: 20em;
-    width: 20em;
-    background-color: #0B4B9F;
+    height: 28em;
     border-radius: 100%;
+    box-shadow: -1em 1em 1em #0B4B9F;
+    
 }
 
 .conteudo-quem-somos {
@@ -137,8 +137,10 @@ body {
     font-weight: 800;
 }
 
-.paragrafo-quem-somos {
+.paragrafo-quem-somos > p {
     font-family: 'Spartan', sans-serif;
     font-size: 1em;
     font-weight: 400;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
