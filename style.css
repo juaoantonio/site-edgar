@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    border-color: #FFFFFF;
+}
+
+body {
+    background: linear-gradient(72.46deg, #0B4B9F 0%, #1D79F2 46.35%, #388EFF 100%) fixed;
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 3em;
+    margin: 1em 3em 1em 3em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo-icon {
+    width: 4em;
+}
+
+.logo-txt {
+    width: 7em;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.menu-item {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 6em;
+    text-align: center;
+    border-bottom: 0.1em solid #FFFFFF;
+}
+
+.conteudo {
+    border-top: 0.1em solid #FFFFFF;
+}
+
+.conteudo-apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5em;
+    
+}
+
+.mensagem-apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.texto-apresentacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto1-apresentacao {
+    font-family: 'Spartan', sans-serif;
+    font-size: 4.5em;
+    font-weight: 900;
+    color: #f6a919;
+    padding-bottom: 0%;    
+}
+
+.texto2-apresentacao {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+
+.botao-apresentacao {
+    background-color: #FFFFFF;
+    width: 15em;
+    height: 3.5em;
+    border-radius: 22px;
+    border: #FFFFFF;
+    box-shadow: -0.6em 0.5em 0em #0B4B9F;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    text-align: center;
+    color: #0B4B9F;
+}
+
+.imagem-apresentacao {
+    height: 20em;
+    width: 20em;
+    background-color: #0B4B9F;
+    border-radius: 100%;
+}
+
+.conteudo-quem-somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    background-color: #FFFFFF;
+    margin-top: 10em;
+    height: 20em;
+    padding: 10em 5.5em 10em 5.5em;
+}
+
+.titulo-quem-somos {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.paragrafo-quem-somos {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
